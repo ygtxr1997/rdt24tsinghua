@@ -4,7 +4,7 @@ import numpy as np
 
 from data.vla_dataset import VLADataset
 
-
+print("debug")
 def print_dict(d, indent=0):
     for key, val in d.items():
         if key == "json_content":
